@@ -1,4 +1,4 @@
-#Flap-Display
+# Flap-Display
 This Project is subdivided into different parts
 
 * Initial Codebase of FAI for Toni Prototype
