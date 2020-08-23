@@ -9,7 +9,6 @@
 
 #include "Wire.h"
 #include <ArduinoRS485.h>
-#include "mappingTable.h"
 #define DS3231_I2C_ADDRESS 0x68
 
 byte CMD_break[] = {
@@ -146,16 +145,6 @@ void writePosition(byte addr, byte value) {
   delay(50);
   RS485.endTransmission();
   delay(500);
-}
-
-void writeChar(byte addr, char c) {
-  gen_break();
-  RS485.beginTransmission();
-  CMD_SET_POS_CHAR[2] = addr;
-  CMD_SET_POS_CHAR[3] = letters.indexOf(c);
-  RS485.write(CMD_SET_POS_CHAR, 4);
-  delay(50);
-  RS485.endTransmission();
 }
 
 int gen_break()
