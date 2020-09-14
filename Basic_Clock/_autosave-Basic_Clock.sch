@@ -19,7 +19,7 @@ U 1 1 5F5DEB52
 P 3350 3800
 F 0 "U2" H 2706 3846 50  0000 R CNN
 F 1 "ATmega328P-PU" H 2706 3755 50  0000 R CNN
-F 2 "ATMEGA:DIP-28_W7.62mm_Socket" H 3350 3800 50  0001 C CIN
+F 2 "Package_DIP:DIP-28_W7.62mm_Socket" H 3350 3800 50  0001 C CIN
 F 3 "https://www.distrelec.ch/Web/Downloads/_t/ds/ATMEGA328-AU_eng_tds.pdf" H 3350 3800 50  0001 C CNN
 	1    3350 3800
 	1    0    0    -1  

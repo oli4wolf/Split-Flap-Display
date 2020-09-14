@@ -558,21 +558,21 @@ PIN3
 Text Label 9050 700  0    50   Italic 0
 PIN4
 $Comp
-L Connector:Conn_01x04_Female J?
+L Connector:Conn_01x04_Female J1
 U 1 1 5F6411E1
 P 5300 5000
-F 0 "J?" H 5328 4976 50  0000 L CNN
+F 0 "J1" H 5328 4976 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 5328 4885 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical" H 5300 5000 50  0001 C CNN
+F 2 "Connector THT:PinSocket_1x04_P2.54mm_Vertical" H 5300 5000 50  0001 C CNN
 F 3 "~" H 5300 5000 50  0001 C CNN
 	1    5300 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0113
 U 1 1 5F642351
 P 5100 5000
-F 0 "#PWR?" H 5100 4750 50  0001 C CNN
+F 0 "#PWR0113" H 5100 4750 50  0001 C CNN
 F 1 "GND" H 5105 4827 50  0000 C CNN
 F 2 "" H 5100 5000 50  0001 C CNN
 F 3 "" H 5100 5000 50  0001 C CNN
@@ -580,10 +580,10 @@ F 3 "" H 5100 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0114
 U 1 1 5F642D8B
 P 5100 4900
-F 0 "#PWR?" H 5100 4750 50  0001 C CNN
+F 0 "#PWR0114" H 5100 4750 50  0001 C CNN
 F 1 "+5V" H 5115 5073 50  0000 C CNN
 F 2 "" H 5100 4900 50  0001 C CNN
 F 3 "" H 5100 4900 50  0001 C CNN
@@ -599,23 +599,12 @@ SCL
 Text Label 4950 5200 2    50   Italic 0
 SDA
 $Comp
-L Connector:Conn_01x04_Female J?
-U 1 1 5F64B0DB
-P 7150 2600
-F 0 "J?" V 7088 2312 50  0000 R CNN
-F 1 "Conn_01x04_Female" V 6997 2312 50  0000 R CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical" H 7150 2600 50  0001 C CNN
-F 3 "~" H 7150 2600 50  0001 C CNN
-	1    7150 2600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:Conn_01x04_Female J?
+L Connector:Conn_01x04_Female J3
 U 1 1 5F64D16E
 P 7200 4300
-F 0 "J?" V 7046 4448 50  0000 L CNN
+F 0 "J3" V 7046 4448 50  0000 L CNN
 F 1 "Conn_01x04_Female" V 7137 4448 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical" H 7200 4300 50  0001 C CNN
+F 2 "Connector THT:PinSocket_1x04_P2.54mm_Vertical" H 7200 4300 50  0001 C CNN
 F 3 "~" H 7200 4300 50  0001 C CNN
 	1    7200 4300
 	0    1    1    0   
@@ -627,10 +616,10 @@ Wire Wire Line
 Text Notes 7350 2500 2    50   Italic 0
 TX->DI\nRX->RO
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0115
 U 1 1 5F6508FC
 P 7000 4100
-F 0 "#PWR?" H 7000 3850 50  0001 C CNN
+F 0 "#PWR0115" H 7000 3850 50  0001 C CNN
 F 1 "GND" H 7005 3927 50  0000 C CNN
 F 2 "" H 7000 4100 50  0001 C CNN
 F 3 "" H 7000 4100 50  0001 C CNN
@@ -638,10 +627,10 @@ F 3 "" H 7000 4100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0116
 U 1 1 5F6537BC
 P 7300 4100
-F 0 "#PWR?" H 7300 3950 50  0001 C CNN
+F 0 "#PWR0116" H 7300 3950 50  0001 C CNN
 F 1 "+5V" H 7315 4273 50  0000 C CNN
 F 2 "" H 7300 4100 50  0001 C CNN
 F 3 "" H 7300 4100 50  0001 C CNN
@@ -668,4 +657,15 @@ Text Label 4200 2700 2    50   Italic 0
 RE
 Text Label 4200 2800 2    50   Italic 0
 DE
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 5F64B0DB
+P 7150 2600
+F 0 "J2" V 7088 2312 50  0000 R CNN
+F 1 "Conn_01x04_Female" V 6997 2312 50  0000 R CNN
+F 2 "Connector THT:PinSocket_1x04_P2.54mm_Vertical" H 7150 2600 50  0001 C CNN
+F 3 "~" H 7150 2600 50  0001 C CNN
+	1    7150 2600
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
