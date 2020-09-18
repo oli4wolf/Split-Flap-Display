@@ -130,7 +130,7 @@ P 5455 4125
 F 0 "SW1" H 5455 4410 50  0000 C CNN
 F 1 "SW_Push_Reset" H 5455 4319 50  0000 C CNN
 F 2 "Button THT:SW_PUSH_6mm_H5mm" H 5455 4325 50  0001 C CNN
-F 3 "https://www.distrelec.ch/Web/Downloads/_t/ds/RND%20210-00193_eng_tds.pdf" H 5455 4325 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/printtaster-schliesser-45n-6mm-rnd-components-rnd-210-00193/p/30090649?queryFromSuggest=true" H 5455 4325 50  0001 C CNN
 	1    5455 4125
 	1    0    0    -1  
 $EndComp
@@ -229,7 +229,7 @@ P 2100 1500
 F 0 "R1" H 2170 1546 50  0000 L CNN
 F 1 "240" H 2170 1455 50  0000 L CNN
 F 2 "Resistor:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 2030 1500 50  0001 C CNN
-F 3 "~" H 2100 1500 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/widerstand-600mw-240ohm-vishay-mbb02070c2400fct00/p/16059199?q=240ohm&pos=1&origPos=1&origPageSize=10&track=true" H 2100 1500 50  0001 C CNN
 	1    2100 1500
 	1    0    0    -1  
 $EndComp
@@ -240,7 +240,7 @@ P 1700 1900
 F 0 "R2" H 1770 1946 50  0000 L CNN
 F 1 "720" H 1770 1855 50  0000 L CNN
 F 2 "Resistor:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 1630 1900 50  0001 C CNN
-F 3 "~" H 1700 1900 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/metallschicht-festwiderstand-fuer-durchsteckmontage-732ohm-600mw-rnd-components-rnd-155m207f732rtkrtb5k0/p/30155447?q=*&pos=1&origPos=974&origPageSize=10&track=true" H 1700 1900 50  0001 C CNN
 	1    1700 1900
 	1    0    0    -1  
 $EndComp
@@ -355,7 +355,7 @@ P 1450 3000
 F 0 "R3" H 1520 3046 50  0000 L CNN
 F 1 "1K" H 1520 2955 50  0000 L CNN
 F 2 "Resistor:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 1380 3000 50  0001 C CNN
-F 3 "https://www.mouser.ch/datasheet/2/427/pr010203-1762580.pdf" H 1450 3000 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/metalloxidschicht-widerstand-250mw-1kohm-rnd-components-rnd-155mor0w4j0102a50/p/30088532?q=1kohm&pos=2&origPos=1&origPageSize=10&track=true" H 1450 3000 50  0001 C CNN
 	1    1450 3000
 	1    0    0    -1  
 $EndComp
@@ -424,7 +424,7 @@ P 7850 1500
 F 0 "SW2" H 7850 1785 50  0000 C CNN
 F 1 "SW_Push" H 7850 1694 50  0000 C CNN
 F 2 "Button THT:SW_PUSH_6mm_H5mm" H 7850 1700 50  0001 C CNN
-F 3 "https://www.distrelec.ch/Web/Downloads/_t/ds/RND%20210-00193_eng_tds.pdf" H 7850 1700 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/printtaster-schliesser-45n-6mm-rnd-components-rnd-210-00193/p/30090649?queryFromSuggest=true" H 7850 1700 50  0001 C CNN
 	1    7850 1500
 	0    -1   -1   0   
 $EndComp
@@ -435,7 +435,7 @@ P 8450 1500
 F 0 "SW3" H 8450 1785 50  0000 C CNN
 F 1 "SW_Push" H 8450 1694 50  0000 C CNN
 F 2 "Button THT:SW_PUSH_6mm_H5mm" H 8450 1700 50  0001 C CNN
-F 3 "~" H 8450 1700 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/printtaster-schliesser-45n-6mm-rnd-components-rnd-210-00193/p/30090649?queryFromSuggest=true" H 8450 1700 50  0001 C CNN
 	1    8450 1500
 	0    -1   -1   0   
 $EndComp
@@ -446,7 +446,7 @@ P 9050 1500
 F 0 "SW4" H 9050 1785 50  0000 C CNN
 F 1 "SW_Push" H 9050 1694 50  0000 C CNN
 F 2 "Button THT:SW_PUSH_6mm_H5mm" H 9050 1700 50  0001 C CNN
-F 3 "~" H 9050 1700 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/printtaster-schliesser-45n-6mm-rnd-components-rnd-210-00193/p/30090649?queryFromSuggest=true" H 9050 1700 50  0001 C CNN
 	1    9050 1500
 	0    -1   -1   0   
 $EndComp
@@ -457,7 +457,7 @@ P 7850 1050
 F 0 "R4" H 7920 1096 50  0000 L CNN
 F 1 "10k" H 7920 1005 50  0000 L CNN
 F 2 "Resistor:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 7780 1050 50  0001 C CNN
-F 3 "~" H 7850 1050 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/metalloxidschicht-widerstand-250mw-10kohm-rnd-components-rnd-155mor0w4j0103a50/p/30088533?q=&pos=1&origPos=1&origPageSize=10&track=true" H 7850 1050 50  0001 C CNN
 	1    7850 1050
 	1    0    0    -1  
 $EndComp
@@ -468,7 +468,7 @@ P 8450 1050
 F 0 "R5" H 8520 1096 50  0000 L CNN
 F 1 "10k" H 8520 1005 50  0000 L CNN
 F 2 "Resistor:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 8380 1050 50  0001 C CNN
-F 3 "~" H 8450 1050 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/metalloxidschicht-widerstand-250mw-10kohm-rnd-components-rnd-155mor0w4j0103a50/p/30088533?q=&pos=1&origPos=1&origPageSize=10&track=true" H 8450 1050 50  0001 C CNN
 	1    8450 1050
 	1    0    0    -1  
 $EndComp
@@ -479,7 +479,7 @@ P 9050 1050
 F 0 "R6" H 9120 1096 50  0000 L CNN
 F 1 "10k" H 9120 1005 50  0000 L CNN
 F 2 "Resistor:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 8980 1050 50  0001 C CNN
-F 3 "~" H 9050 1050 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/metalloxidschicht-widerstand-250mw-10kohm-rnd-components-rnd-155mor0w4j0103a50/p/30088533?q=&pos=1&origPos=1&origPageSize=10&track=true" H 9050 1050 50  0001 C CNN
 	1    9050 1050
 	1    0    0    -1  
 $EndComp
@@ -514,7 +514,7 @@ P 5300 5000
 F 0 "J1" H 5328 4976 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 5328 4885 50  0000 L CNN
 F 2 "Connector THT:PinSocket_1x04_P2.54mm_Vertical" H 5300 5000 50  0001 C CNN
-F 3 "~" H 5300 5000 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/gerade-buchse-leiterplattenbuchse-durchsteckmontage-reihen-kontakte-54mm-raster-rnd-connect-rnd-205-00644/p/30093664?q=*&pos=1&origPos=37&origPageSize=10&track=true" H 5300 5000 50  0001 C CNN
 	1    5300 5000
 	1    0    0    -1  
 $EndComp
@@ -555,7 +555,7 @@ P 7200 4300
 F 0 "J3" V 7046 4448 50  0000 L CNN
 F 1 "Conn_01x04_Female" V 7137 4448 50  0000 L CNN
 F 2 "Connector THT:PinSocket_1x04_P2.54mm_Vertical" H 7200 4300 50  0001 C CNN
-F 3 "~" H 7200 4300 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/gerade-buchse-leiterplattenbuchse-durchsteckmontage-reihen-kontakte-54mm-raster-rnd-connect-rnd-205-00644/p/30093664?q=*&pos=1&origPos=37&origPageSize=10&track=true" H 7200 4300 50  0001 C CNN
 	1    7200 4300
 	0    1    1    0   
 $EndComp
@@ -610,7 +610,7 @@ P 7150 2600
 F 0 "J2" V 7088 2312 50  0000 R CNN
 F 1 "Conn_01x04_Female" V 6997 2312 50  0000 R CNN
 F 2 "Connector THT:PinSocket_1x04_P2.54mm_Vertical" H 7150 2600 50  0001 C CNN
-F 3 "~" H 7150 2600 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/gerade-buchse-leiterplattenbuchse-durchsteckmontage-reihen-kontakte-54mm-raster-rnd-connect-rnd-205-00644/p/30093664?q=*&pos=1&origPos=37&origPageSize=10&track=true" H 7150 2600 50  0001 C CNN
 	1    7150 2600
 	0    -1   -1   0   
 $EndComp
@@ -672,7 +672,7 @@ P 4940 3960
 F 0 "R7" H 5010 4006 50  0000 L CNN
 F 1 "10k" H 5010 3915 50  0000 L CNN
 F 2 "Resistor:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" V 4870 3960 50  0001 C CNN
-F 3 "~" H 4940 3960 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/metalloxidschicht-widerstand-250mw-10kohm-rnd-components-rnd-155mor0w4j0103a50/p/30088533?q=&pos=1&origPos=1&origPageSize=10&track=true" H 4940 3960 50  0001 C CNN
 	1    4940 3960
 	1    0    0    -1  
 $EndComp
