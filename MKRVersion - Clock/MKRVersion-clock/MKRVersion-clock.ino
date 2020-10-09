@@ -58,7 +58,7 @@ void setup() {
 
   // set the initial time here (we don't have a display anymore so have to set it once at the beginning)
   // DS3231 seconds, minutes, hours, day, date, month, year
-  // setDS3231time(00, 12, 12, 6, 29, 1, 20);
+   setDS3231time(00, 13, 14, 6, 29, 1, 20);
   delay(1000);
 }
 
@@ -69,7 +69,9 @@ void loop() {
   if (second == 5 && displayTextMemory == HIGH) {
     displayTextMemory = LOW;
     writeMinute(minute);
+    Serial.println(minute);
     writeHour(hour);
+    Serial.println(hour);
     displayTime();
     //If it was shown once then it is enough
   } else if (second != 5 && displayTextMemory == LOW) {
@@ -166,6 +168,7 @@ void incrementDS3231Minute() {
   minute = ((minute + 1) % 60);
   setDS3231time(0, minute , hour, dayOfWeek,  dayOfMonth,  month,  year);
   displayTime();
+  delay(10000);
   writeMinute(minute);
   writeHour(hour);
 }
@@ -176,6 +179,7 @@ void incrementDS3231Hour() {
   hour = ((hour + 1) % 24);
   setDS3231time(0, minute, hour, dayOfWeek,  dayOfMonth,  month,  year);
   displayTime();
+  delay(10000);
   writeMinute(minute);
   writeHour(hour);
 }
