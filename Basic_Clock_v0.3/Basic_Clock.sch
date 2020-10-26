@@ -852,4 +852,79 @@ Wire Wire Line
 	7135 3585 7135 3590
 Wire Wire Line
 	6985 3685 6900 3685
+$Comp
+L Connector:Conn_01x02_Female J_POWER1
+U 1 1 5F941665
+P 9700 4250
+F 0 "J_POWER1" H 9728 4226 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 9728 4135 50  0000 L CNN
+F 2 "Connector THT:PinSocket_1x02_P2.54mm_Vertical" H 9700 4250 50  0001 C CNN
+F 3 "~" H 9700 4250 50  0001 C CNN
+	1    9700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J_UART1
+U 1 1 5F941F8B
+P 9700 4650
+F 0 "J_UART1" H 9728 4626 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 9728 4535 50  0000 L CNN
+F 2 "Connector THT:PinSocket_1x02_P2.54mm_Vertical" H 9700 4650 50  0001 C CNN
+F 3 "~" H 9700 4650 50  0001 C CNN
+	1    9700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J_I2C1
+U 1 1 5F942322
+P 9700 5000
+F 0 "J_I2C1" H 9728 4976 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 9728 4885 50  0000 L CNN
+F 2 "Connector THT:PinSocket_1x02_P2.54mm_Vertical" H 9700 5000 50  0001 C CNN
+F 3 "~" H 9700 5000 50  0001 C CNN
+	1    9700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5F942A97
+P 9350 4350
+F 0 "#PWR0124" H 9350 4100 50  0001 C CNN
+F 1 "GND" H 9355 4177 50  0000 C CNN
+F 2 "" H 9350 4350 50  0001 C CNN
+F 3 "" H 9350 4350 50  0001 C CNN
+	1    9350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0125
+U 1 1 5F942D77
+P 9350 4250
+F 0 "#PWR0125" H 9350 4100 50  0001 C CNN
+F 1 "+5V" H 9365 4423 50  0000 C CNN
+F 2 "" H 9350 4250 50  0001 C CNN
+F 3 "" H 9350 4250 50  0001 C CNN
+	1    9350 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 4250 9350 4250
+Wire Wire Line
+	9350 4350 9500 4350
+Wire Wire Line
+	9500 4650 9300 4650
+Wire Wire Line
+	9500 4750 9300 4750
+Text Label 9300 4650 0    50   ~ 0
+RX
+Text Label 9300 4750 0    50   ~ 0
+TX
+Wire Wire Line
+	9500 5000 9300 5000
+Wire Wire Line
+	9500 5100 9300 5100
+Text Label 9300 5000 0    50   ~ 0
+SDA
+Text Label 9300 5100 0    50   ~ 0
+SCL
 $EndSCHEMATC
