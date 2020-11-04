@@ -281,53 +281,42 @@ Wire Wire Line
 $Comp
 L Device:LED D1
 U 1 1 5F602C4A
-P 1450 3450
-F 0 "D1" V 1489 3332 50  0000 R CNN
-F 1 "Power LED" V 1398 3332 50  0000 R CNN
-F 2 "LED:LED_D5.0mm_Clear" H 1450 3450 50  0001 C CNN
-F 3 "https://www.distrelec.ch/Web/Downloads/ta/_e/shL-7113SRD-D_data_e.pdf" H 1450 3450 50  0001 C CNN
-	1    1450 3450
+P 1450 3300
+F 0 "D1" V 1489 3182 50  0000 R CNN
+F 1 "Power LED" V 1398 3182 50  0000 R CNN
+F 2 "LED:LED_D5.0mm_Clear" H 1450 3300 50  0001 C CNN
+F 3 "https://www.distrelec.ch/Web/Downloads/ta/_e/shL-7113SRD-D_data_e.pdf" H 1450 3300 50  0001 C CNN
+	1    1450 3300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 5F603077
-P 1450 3000
-F 0 "R3" H 1520 3046 50  0000 L CNN
-F 1 "1K" H 1520 2955 50  0000 L CNN
-F 2 "Resistor:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 1380 3000 50  0001 C CNN
-F 3 "https://www.distrelec.ch/de/metalloxidschicht-widerstand-250mw-1kohm-rnd-components-rnd-155mor0w4j0102a50/p/30088532?q=1kohm&pos=2&origPos=1&origPageSize=10&track=true" H 1450 3000 50  0001 C CNN
-	1    1450 3000
+P 1450 2850
+F 0 "R3" H 1520 2896 50  0000 L CNN
+F 1 "1K" H 1520 2805 50  0000 L CNN
+F 2 "Resistor:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 1380 2850 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/metalloxidschicht-widerstand-250mw-1kohm-rnd-components-rnd-155mor0w4j0102a50/p/30088532?q=1kohm&pos=2&origPos=1&origPageSize=10&track=true" H 1450 2850 50  0001 C CNN
+	1    1450 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0110
 U 1 1 5F603A4F
-P 1450 3750
-F 0 "#PWR0110" H 1450 3500 50  0001 C CNN
-F 1 "GND" H 1455 3577 50  0000 C CNN
-F 2 "" H 1450 3750 50  0001 C CNN
-F 3 "" H 1450 3750 50  0001 C CNN
-	1    1450 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0111
-U 1 1 5F6054E5
-P 1450 2700
-F 0 "#PWR0111" H 1450 2550 50  0001 C CNN
-F 1 "+5V" H 1465 2873 50  0000 C CNN
-F 2 "" H 1450 2700 50  0001 C CNN
-F 3 "" H 1450 2700 50  0001 C CNN
-	1    1450 2700
+P 1450 3600
+F 0 "#PWR0110" H 1450 3350 50  0001 C CNN
+F 1 "GND" H 1455 3427 50  0000 C CNN
+F 2 "" H 1450 3600 50  0001 C CNN
+F 3 "" H 1450 3600 50  0001 C CNN
+	1    1450 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 2700 1450 2850
+	1450 2550 1450 2700
 Wire Wire Line
-	1450 3150 1450 3300
+	1450 3000 1450 3150
 Wire Wire Line
-	1450 3600 1450 3750
+	1450 3450 1450 3600
 Text Notes 3650 1050 0    50   ~ 0
 Decoupling capacitor
 Wire Wire Line
@@ -445,32 +434,32 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0113
 U 1 1 5F642351
-P 4725 5000
-F 0 "#PWR0113" H 4725 4750 50  0001 C CNN
-F 1 "GND" H 4730 4827 50  0000 C CNN
-F 2 "" H 4725 5000 50  0001 C CNN
-F 3 "" H 4725 5000 50  0001 C CNN
-	1    4725 5000
+P 4975 6600
+F 0 "#PWR0113" H 4975 6350 50  0001 C CNN
+F 1 "GND" H 4980 6427 50  0000 C CNN
+F 2 "" H 4975 6600 50  0001 C CNN
+F 3 "" H 4975 6600 50  0001 C CNN
+	1    4975 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0114
 U 1 1 5F642D8B
-P 5020 4900
-F 0 "#PWR0114" H 5020 4750 50  0001 C CNN
-F 1 "+5V" H 5035 5073 50  0000 C CNN
-F 2 "" H 5020 4900 50  0001 C CNN
-F 3 "" H 5020 4900 50  0001 C CNN
-	1    5020 4900
+P 5270 6500
+F 0 "#PWR0114" H 5270 6350 50  0001 C CNN
+F 1 "+5V" H 5285 6673 50  0000 C CNN
+F 2 "" H 5270 6500 50  0001 C CNN
+F 3 "" H 5270 6500 50  0001 C CNN
+	1    5270 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 5100 4950 5100
+	5350 6700 5200 6700
 Wire Wire Line
-	5100 5200 4950 5200
-Text Label 4950 5100 2    50   Italic 0
+	5350 6800 5200 6800
+Text Label 5200 6700 2    50   Italic 0
 SCL
-Text Label 4950 5200 2    50   Italic 0
+Text Label 5200 6800 2    50   Italic 0
 SDA
 Wire Wire Line
 	7850 800  8452 800 
@@ -681,11 +670,8 @@ Connection ~ 3950 2600
 Connection ~ 3950 2700
 Wire Wire Line
 	3950 2700 3950 2600
-Connection ~ 3950 2800
 Wire Wire Line
 	3950 2800 3950 2700
-Wire Wire Line
-	3950 2900 3950 2800
 Connection ~ 3950 3500
 Wire Wire Line
 	2750 2300 2750 2600
@@ -731,20 +717,20 @@ Wire Wire Line
 Connection ~ 3950 3600
 Connection ~ 3950 3700
 Wire Wire Line
-	4725 5000 5100 5000
+	4975 6600 5350 6600
 $Comp
 L Connector:Conn_01x04_Female J1
 U 1 1 5F6411E1
-P 5300 5000
-F 0 "J1" H 5328 4976 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 5328 4885 50  0000 L CNN
-F 2 "Connector THT:PinSocket_1x04_P2.54mm_Vertical" H 5300 5000 50  0001 C CNN
-F 3 "https://www.distrelec.ch/de/gerade-buchse-leiterplattenbuchse-durchsteckmontage-reihen-kontakte-54mm-raster-rnd-connect-rnd-205-00644/p/30093664?q=*&pos=1&origPos=37&origPageSize=10&track=true" H 5300 5000 50  0001 C CNN
-	1    5300 5000
+P 5550 6600
+F 0 "J1" H 5578 6576 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5578 6485 50  0000 L CNN
+F 2 "Connector THT:PinSocket_1x04_P2.54mm_Vertical" H 5550 6600 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/gerade-buchse-leiterplattenbuchse-durchsteckmontage-reihen-kontakte-54mm-raster-rnd-connect-rnd-205-00644/p/30093664?q=*&pos=1&origPos=37&origPageSize=10&track=true" H 5550 6600 50  0001 C CNN
+	1    5550 6600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 4900 5020 4900
+	5350 6500 5270 6500
 Wire Wire Line
 	1905 5390 2030 5390
 Wire Wire Line
@@ -800,12 +786,12 @@ Wire Wire Line
 Wire Wire Line
 	9350 4350 9500 4350
 Wire Wire Line
-	8200 4550 8000 4550
+	8200 4950 8000 4950
 Wire Wire Line
-	8200 4750 8000 4750
-Text Label 8000 4550 0    50   ~ 0
+	8200 5150 8000 5150
+Text Label 8000 4950 0    50   ~ 0
 RS485RX
-Text Label 8000 4750 0    50   ~ 0
+Text Label 8000 5150 0    50   ~ 0
 RS485TX
 Wire Wire Line
 	9500 5000 9300 5000
@@ -841,9 +827,6 @@ Text Label 8100 2975 0    50   ~ 0
 RS485TX
 Wire Wire Line
 	3950 4700 4055 4700
-Wire Wire Line
-	3950 3000 3950 2900
-Connection ~ 3950 2900
 Text Label 4055 4700 0    50   ~ 0
 TXDE
 Text Label 8095 2775 0    50   ~ 0
@@ -908,48 +891,177 @@ Wire Wire Line
 	3950 4900 4350 4900
 Wire Wire Line
 	3950 4800 4350 4800
-Wire Wire Line
-	3950 4400 3950 4300
-$Comp
-L power:GND #PWR04
-U 1 1 5FA096FA
-P 4100 4300
-F 0 "#PWR04" H 4100 4050 50  0001 C CNN
-F 1 "GND" H 4105 4127 50  0000 C CNN
-F 2 "" H 4100 4300 50  0001 C CNN
-F 3 "" H 4100 4300 50  0001 C CNN
-	1    4100 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4100 4300 3950 4300
-Connection ~ 3950 4300
-$Comp
-L power:GND #PWR03
-U 1 1 5FA11689
-P 4050 3100
-F 0 "#PWR03" H 4050 2850 50  0001 C CNN
-F 1 "GND" H 4055 2927 50  0000 C CNN
-F 2 "" H 4050 3100 50  0001 C CNN
-F 3 "" H 4050 3100 50  0001 C CNN
-	1    4050 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 3100 3950 3100
 $Comp
 L Connector:Conn_01x03_Female J5
 U 1 1 5FA15A3A
-P 8400 4650
-F 0 "J5" H 8428 4676 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 8428 4585 50  0000 L CNN
-F 2 "Connector THT:PinSocket_1x03_P2.54mm_Vertical" H 8400 4650 50  0001 C CNN
-F 3 "~" H 8400 4650 50  0001 C CNN
-	1    8400 4650
+P 8400 5050
+F 0 "J5" H 8428 5076 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 8428 4985 50  0000 L CNN
+F 2 "Connector THT:PinSocket_1x03_P2.54mm_Vertical" H 8400 5050 50  0001 C CNN
+F 3 "~" H 8400 5050 50  0001 C CNN
+	1    8400 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 4650 8000 4650
-Text Label 8000 4650 0    50   ~ 0
+	8200 5050 8000 5050
+Text Label 8000 5050 0    50   ~ 0
 TXDE
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even ICSP1
+U 1 1 5FA2572B
+P 5200 2100
+F 0 "ICSP1" H 5250 2417 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 5250 2326 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 5200 2100 50  0001 C CNN
+F 3 "~" H 5200 2100 50  0001 C CNN
+	1    5200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4100 5850 4100
+Wire Wire Line
+	5850 4100 5850 2400
+Wire Wire Line
+	5850 2400 5000 2400
+Wire Wire Line
+	5000 2400 5000 2200
+Connection ~ 4950 4100
+Wire Wire Line
+	3950 3100 4050 3100
+Wire Wire Line
+	3950 3000 4050 3000
+Wire Wire Line
+	3950 2900 4050 2900
+Text Label 4050 2900 0    50   ~ 0
+MOSI
+Text Label 4050 3000 0    50   ~ 0
+MISO
+Text Label 4050 3100 0    50   ~ 0
+SCK
+Wire Wire Line
+	5000 2100 4750 2100
+Wire Wire Line
+	5000 2000 4750 2000
+Text Label 4750 2100 0    50   ~ 0
+SCK
+Text Label 4750 2000 0    50   ~ 0
+MISO
+Wire Wire Line
+	5500 2000 5750 2000
+$Comp
+L power:+5V #PWR03
+U 1 1 5FA46A11
+P 5750 2000
+F 0 "#PWR03" H 5750 1850 50  0001 C CNN
+F 1 "+5V" H 5765 2173 50  0000 C CNN
+F 2 "" H 5750 2000 50  0001 C CNN
+F 3 "" H 5750 2000 50  0001 C CNN
+	1    5750 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2200 5750 2200
+$Comp
+L power:GND #PWR04
+U 1 1 5FA4B191
+P 5750 2200
+F 0 "#PWR04" H 5750 1950 50  0001 C CNN
+F 1 "GND" H 5755 2027 50  0000 C CNN
+F 2 "" H 5750 2200 50  0001 C CNN
+F 3 "" H 5750 2200 50  0001 C CNN
+	1    5750 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2100 5650 2100
+Text Label 5650 2100 0    50   ~ 0
+MOSI
+Wire Wire Line
+	3950 4300 4100 4300
+Wire Wire Line
+	3950 4400 4100 4400
+Text Label 4100 4300 0    50   ~ 0
+RXD
+Text Label 4100 4400 0    50   ~ 0
+TXD
+$Comp
+L Connector:Conn_01x02_Female J_I2C2
+U 1 1 5FA596D1
+P 8500 4200
+F 0 "J_I2C2" H 8528 4176 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 8528 4085 50  0000 L CNN
+F 2 "Connector THT:PinSocket_1x02_P2.54mm_Vertical" H 8500 4200 50  0001 C CNN
+F 3 "~" H 8500 4200 50  0001 C CNN
+	1    8500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 4200 8050 4200
+Wire Wire Line
+	8300 4300 8050 4300
+Text Label 8050 4200 0    50   ~ 0
+RXD
+Text Label 8050 4300 0    50   ~ 0
+TXD
+$Comp
+L Regulator_Switching:R-78E5.0-0.5 U4
+U 1 1 5FA6D940
+P 1250 4400
+F 0 "U4" H 1250 4642 50  0000 C CNN
+F 1 "R-78E5.0-0.5" H 1250 4551 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT" H 1300 4150 50  0001 L CIN
+F 3 "https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf" H 1250 4400 50  0001 C CNN
+	1    1250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+28V #PWR05
+U 1 1 5FA72089
+P 850 4400
+F 0 "#PWR05" H 850 4250 50  0001 C CNN
+F 1 "+28V" H 865 4573 50  0000 C CNN
+F 2 "" H 1100 4450 50  0001 C CNN
+F 3 "" H 1100 4450 50  0001 C CNN
+	1    850  4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5FA72982
+P 1250 4750
+F 0 "#PWR06" H 1250 4500 50  0001 C CNN
+F 1 "GND" H 1255 4577 50  0000 C CNN
+F 2 "" H 1250 4750 50  0001 C CNN
+F 3 "" H 1250 4750 50  0001 C CNN
+	1    1250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 5FA72F11
+P 1650 4400
+F 0 "#PWR07" H 1650 4250 50  0001 C CNN
+F 1 "+5V" H 1665 4573 50  0000 C CNN
+F 2 "" H 1650 4400 50  0001 C CNN
+F 3 "" H 1650 4400 50  0001 C CNN
+	1    1650 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 4750 1250 4700
+Wire Wire Line
+	950  4400 850  4400
+Wire Wire Line
+	1550 4400 1650 4400
+$Comp
+L power:+5V #PWR0111
+U 1 1 5F6054E5
+P 1450 2550
+F 0 "#PWR0111" H 1450 2400 50  0001 C CNN
+F 1 "+5V" H 1465 2723 50  0000 C CNN
+F 2 "" H 1450 2550 50  0001 C CNN
+F 3 "" H 1450 2550 50  0001 C CNN
+	1    1450 2550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
