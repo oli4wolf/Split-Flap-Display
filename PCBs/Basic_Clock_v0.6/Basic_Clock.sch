@@ -27,17 +27,6 @@ $EndComp
 Wire Wire Line
 	3350 5550 3350 5300
 $Comp
-L Regulator_Linear:LM317_TO-220 U1
-U 1 1 5F5E354F
-P 1600 1400
-F 0 "U1" H 1600 1642 50  0000 C CNN
-F 1 "LM317_TO-220" H 1600 1551 50  0000 C CNN
-F 2 "TO SOT THT:TO-220-3_Vertical" H 1600 1650 50  0001 C CIN
-F 3 "https://www.distrelec.ch/Web/Downloads/a_/en/tnSTM-LM317_data_en.pdf" H 1600 1400 50  0001 C CNN
-	1    1600 1400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Crystal Y1
 U 1 1 5F5E425D
 P 4700 3150
@@ -171,113 +160,6 @@ F 3 "" H 3800 1300 50  0001 C CNN
 	1    3800 1300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C3
-U 1 1 5F5EFD99
-P 1000 1550
-F 0 "C3" H 1115 1596 50  0000 L CNN
-F 1 "100nF" H 1115 1505 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 1038 1400 50  0001 C CNN
-F 3 "https://www.distrelec.ch/en/ceramic-capacitor-100nf-50v-10-kemet-c322c104k5r5ta7301/p/16571681" H 1000 1550 50  0001 C CNN
-	1    1000 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5F5F0629
-P 2000 1550
-F 0 "R1" H 2070 1596 50  0000 L CNN
-F 1 "240" H 2070 1505 50  0000 L CNN
-F 2 "Resistor:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 1930 1550 50  0001 C CNN
-F 3 "https://www.distrelec.ch/de/widerstand-600mw-240ohm-vishay-mbb02070c2400fct00/p/16059199?q=240ohm&pos=1&origPos=1&origPageSize=10&track=true" H 2000 1550 50  0001 C CNN
-	1    2000 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5F5F10C3
-P 1600 1950
-F 0 "R2" H 1670 1996 50  0000 L CNN
-F 1 "720" H 1670 1905 50  0000 L CNN
-F 2 "Resistor:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 1530 1950 50  0001 C CNN
-F 3 "https://www.distrelec.ch/de/metallschicht-festwiderstand-fuer-durchsteckmontage-732ohm-600mw-rnd-components-rnd-155m207f732rtkrtb5k0/p/30155447?q=*&pos=1&origPos=974&origPageSize=10&track=true" H 1600 1950 50  0001 C CNN
-	1    1600 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D2
-U 1 1 5F5F1652
-P 1600 1000
-F 0 "D2" H 1600 1217 50  0000 C CNN
-F 1 "D" H 1600 1126 50  0000 C CNN
-F 2 "Diode THT:D_T-1_P10.16mm_Horizontal" H 1600 1000 50  0001 C CNN
-F 3 "https://www.distrelec.ch/Web/Downloads/_t/ds/1n400x_eng_tds.pdf" H 1600 1000 50  0001 C CNN
-	1    1600 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C4
-U 1 1 5F5F1EDA
-P 2250 1550
-F 0 "C4" H 2368 1596 50  0000 L CNN
-F 1 "1uF" H 2368 1505 50  0000 L CNN
-F 2 "Capacitor THT:CP_Radial_D5.0mm_P2.00mm" H 2288 1400 50  0001 C CNN
-F 3 "https://www.distrelec.ch/en/radial-electrolytic-capacitor-1uf-25vdc-20-rnd-components-rnd-150ehr010m25b/p/30091992?q=1uF&pos=3&origPos=3&origPageSize=10&track=true" H 2250 1550 50  0001 C CNN
-	1    2250 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 1400 1300 1400
-Wire Wire Line
-	1900 1400 2000 1400
-Wire Wire Line
-	2000 1400 2250 1400
-Connection ~ 2000 1400
-Wire Wire Line
-	2000 1700 1600 1700
-Wire Wire Line
-	1000 2150 1000 1700
-Wire Wire Line
-	2000 1400 2000 1000
-Wire Wire Line
-	2000 1000 1750 1000
-Wire Wire Line
-	1450 1000 1000 1000
-Wire Wire Line
-	1000 1000 1000 1400
-Connection ~ 1000 1400
-$Comp
-L power:+28V #PWR0107
-U 1 1 5F5F7051
-P 800 1330
-F 0 "#PWR0107" H 800 1180 50  0001 C CNN
-F 1 "+28V" H 815 1503 50  0000 C CNN
-F 2 "" H 1050 1380 50  0001 C CNN
-F 3 "" H 1050 1380 50  0001 C CNN
-	1    800  1330
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 1400 800  1400
-$Comp
-L power:+5V #PWR0109
-U 1 1 5F5FB9F2
-P 2250 1400
-F 0 "#PWR0109" H 2250 1250 50  0001 C CNN
-F 1 "+5V" H 2265 1573 50  0000 C CNN
-F 2 "" H 2250 1400 50  0001 C CNN
-F 3 "" H 2250 1400 50  0001 C CNN
-	1    2250 1400
-	1    0    0    -1  
-$EndComp
-Connection ~ 2250 1400
-Wire Wire Line
-	1000 2150 1600 2150
-Wire Wire Line
-	1600 1800 1600 1700
-Connection ~ 1600 1700
-Wire Wire Line
-	1600 2100 1600 2150
 $Comp
 L Device:LED D1
 U 1 1 5F602C4A
@@ -628,44 +510,6 @@ F 3 "https://www.distrelec.ch/de/metalloxidschicht-widerstand-250mw-10kohm-rnd-c
 $EndComp
 Wire Wire Line
 	4950 4100 3950 4100
-$Comp
-L power:GND #PWR0108
-U 1 1 5F5F7878
-P 2250 2150
-F 0 "#PWR0108" H 2250 1900 50  0001 C CNN
-F 1 "GND" H 2255 1977 50  0000 C CNN
-F 2 "" H 2250 2150 50  0001 C CNN
-F 3 "" H 2250 2150 50  0001 C CNN
-	1    2250 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1600 2150 2250 2150
-Connection ~ 1600 2150
-Wire Wire Line
-	2250 2150 2250 1700
-Connection ~ 2250 2150
-Wire Wire Line
-	2250 2150 2750 2150
-Wire Wire Line
-	2750 2150 2750 1650
-$Comp
-L Device:C C5
-U 1 1 5F627055
-P 2750 1500
-F 0 "C5" H 2865 1546 50  0000 L CNN
-F 1 "100nF" H 2865 1455 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 2788 1350 50  0001 C CNN
-F 3 "https://www.distrelec.ch/en/ceramic-capacitor-100nf-50v-10-kemet-c322c104k5r5ta7301/p/16571681" H 2750 1500 50  0001 C CNN
-	1    2750 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 1350 2500 1350
-Wire Wire Line
-	2500 1350 2500 1400
-Wire Wire Line
-	2500 1400 2250 1400
 Connection ~ 3950 2600
 Connection ~ 3950 2700
 Wire Wire Line
@@ -695,8 +539,6 @@ Wire Wire Line
 	3450 2300 3350 2300
 Wire Wire Line
 	3950 2600 4100 2600
-Wire Wire Line
-	800  1330 800  1400
 $Comp
 L power:+28V #PWR0119
 U 1 1 5F94A5A7

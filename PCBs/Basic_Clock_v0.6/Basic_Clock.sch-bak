@@ -281,53 +281,42 @@ Wire Wire Line
 $Comp
 L Device:LED D1
 U 1 1 5F602C4A
-P 1450 3450
-F 0 "D1" V 1489 3332 50  0000 R CNN
-F 1 "Power LED" V 1398 3332 50  0000 R CNN
-F 2 "LED:LED_D5.0mm_Clear" H 1450 3450 50  0001 C CNN
-F 3 "https://www.distrelec.ch/Web/Downloads/ta/_e/shL-7113SRD-D_data_e.pdf" H 1450 3450 50  0001 C CNN
-	1    1450 3450
+P 1450 3300
+F 0 "D1" V 1489 3182 50  0000 R CNN
+F 1 "Power LED" V 1398 3182 50  0000 R CNN
+F 2 "LED:LED_D5.0mm_Clear" H 1450 3300 50  0001 C CNN
+F 3 "https://www.distrelec.ch/Web/Downloads/ta/_e/shL-7113SRD-D_data_e.pdf" H 1450 3300 50  0001 C CNN
+	1    1450 3300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 5F603077
-P 1450 3000
-F 0 "R3" H 1520 3046 50  0000 L CNN
-F 1 "1K" H 1520 2955 50  0000 L CNN
-F 2 "Resistor:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 1380 3000 50  0001 C CNN
-F 3 "https://www.distrelec.ch/de/metalloxidschicht-widerstand-250mw-1kohm-rnd-components-rnd-155mor0w4j0102a50/p/30088532?q=1kohm&pos=2&origPos=1&origPageSize=10&track=true" H 1450 3000 50  0001 C CNN
-	1    1450 3000
+P 1450 2850
+F 0 "R3" H 1520 2896 50  0000 L CNN
+F 1 "1K" H 1520 2805 50  0000 L CNN
+F 2 "Resistor:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 1380 2850 50  0001 C CNN
+F 3 "https://www.distrelec.ch/de/metalloxidschicht-widerstand-250mw-1kohm-rnd-components-rnd-155mor0w4j0102a50/p/30088532?q=1kohm&pos=2&origPos=1&origPageSize=10&track=true" H 1450 2850 50  0001 C CNN
+	1    1450 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0110
 U 1 1 5F603A4F
-P 1450 3750
-F 0 "#PWR0110" H 1450 3500 50  0001 C CNN
-F 1 "GND" H 1455 3577 50  0000 C CNN
-F 2 "" H 1450 3750 50  0001 C CNN
-F 3 "" H 1450 3750 50  0001 C CNN
-	1    1450 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0111
-U 1 1 5F6054E5
-P 1450 2700
-F 0 "#PWR0111" H 1450 2550 50  0001 C CNN
-F 1 "+5V" H 1465 2873 50  0000 C CNN
-F 2 "" H 1450 2700 50  0001 C CNN
-F 3 "" H 1450 2700 50  0001 C CNN
-	1    1450 2700
+P 1450 3600
+F 0 "#PWR0110" H 1450 3350 50  0001 C CNN
+F 1 "GND" H 1455 3427 50  0000 C CNN
+F 2 "" H 1450 3600 50  0001 C CNN
+F 3 "" H 1450 3600 50  0001 C CNN
+	1    1450 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 2700 1450 2850
+	1450 2550 1450 2700
 Wire Wire Line
-	1450 3150 1450 3300
+	1450 3000 1450 3150
 Wire Wire Line
-	1450 3600 1450 3750
+	1450 3450 1450 3600
 Text Notes 3650 1050 0    50   ~ 0
 Decoupling capacitor
 Wire Wire Line
@@ -1064,4 +1053,15 @@ Wire Wire Line
 	950  4400 850  4400
 Wire Wire Line
 	1550 4400 1650 4400
+$Comp
+L power:+5V #PWR0111
+U 1 1 5F6054E5
+P 1450 2550
+F 0 "#PWR0111" H 1450 2400 50  0001 C CNN
+F 1 "+5V" H 1465 2723 50  0000 C CNN
+F 2 "" H 1450 2550 50  0001 C CNN
+F 3 "" H 1450 2550 50  0001 C CNN
+	1    1450 2550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
