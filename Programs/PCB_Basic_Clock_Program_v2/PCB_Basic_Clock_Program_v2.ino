@@ -171,11 +171,11 @@ void loop() {
 }
 
 void writeMinute(byte value) {
-        writePosition(1, ((value+30) % 61));
+        writePosition(2, ((value+30) % 61));
 }
 
 void writeHour(byte value) {
-        writePosition(0, hour % 24);
+        writePosition(1, hour % 24);
 }
 
 /** Helper for RS485Serial **/

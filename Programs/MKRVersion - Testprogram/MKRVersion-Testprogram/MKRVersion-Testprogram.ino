@@ -23,6 +23,9 @@ byte CMD_R_ADR[] = {
 byte CMD_R_TYPE[] = {
   0xFF, 0xDD, 0x7B // 255 221  Value
 };
+byte CMD_W_ROTATION[] = {
+  0xFF, 0x8A, 0x01
+};
 
 // Clock variables
 byte second, minute, hour, dayOfWeek, dayOfMonth, month, year;
@@ -41,7 +44,7 @@ void setup() {
 
 void loop() {
   Serial.println("Listening to Input");
-  Serial.println("1 for Time, 2 for Adress, 3 for type, 3 move addr 40");
+  Serial.println("1 for Time, 2 for Adress, 3 for type, 4 move addr 40");
   for (;;) {
     switch (Serial.read()) {
       case '0': checkFAI(); break;
@@ -49,7 +52,8 @@ void loop() {
       case '2': findAddress(); break;
       case '3': findType(); break;
       case '4': sendPosition(); break;
-      case '5': return;
+      case '5': calibration(); break;
+      case '6': return;
       default: continue;  // includes the case 'no input'
     }
   }
@@ -96,7 +100,7 @@ int findAddress() {
   return -1;
 }
 
-void findType() {
+int findType() {
   Serial.println("Please wait ...");
   for (int i = 0; i < 256; i++) {
     CMD_R_TYPE[2] = i;
@@ -126,6 +130,39 @@ void sendPosition(){
   for (int i = 0; i< 10;i++) {
   writePosition(40, i);
   }
+}
+
+void calibration() {
+  Serial.println("Confirm only connect one Split-Flap to avoid any compromising elements. Enter: k to continue");
+  int cnt = 0;
+  int address = -1;
+  int faiType = -1;
+  
+  while (!Serial.available()) {
+    if(cnt= < 1000){
+      cnt++;
+      delay(100);  
+    }
+    }
+  while(Serial.available()){
+    char enter = Serial.read();
+    if(enter == 'k'){
+      int address = findAddress();
+      int faiType = findType();
+      // Only continue if we found an Split-Flap
+      if(address >= 0){
+        Serial.println("Begin configuration: Rotating to ")
+                //        i_key = wait_select();
+        CMD_w_rotation[2] = adrFlap;
+        digitalWrite(RS485_control, RS485Transmit);
+        itmp = gen_break();
+        mySerial.write(CMD_w_rotation, 3);
+      }
+  }
+
+
+}
+  
 }
 
 /** Helper for RS485 **/
